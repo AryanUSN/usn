@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Systemutvikling</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/ll.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+      /* */
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: rgba(255, 0, 0, 0.523);
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: #555;
+        }
+
+        hr{
+            color: black;
+            width: 100%;
+                  }
+		img{
+			width: 100%;
+			
+		}
+		/* her tok jeg samme stilen som tilbake til topp knappen på les mer */
+		/* stil for les mer knappen*/	
+		#knap{
+		  bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: rgba(255, 0, 0, 0.523);
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+		}
+		#knap:hover { 
+			background-color: #f2eded;
+			color: black;
+		 }
+		 .about-area p{
+			line-height: 1.9;
+		}
+    
+		
+        </style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+			   <div class="logo">
+				 <a href="index.html">WEB OG SYSTEMUTVIKLING</a>
+			   </div>
+			   <input type="checkbox" id="nav-check">
+			   <label for="nav-check" class="nav-toggler">
+				  <span></span>
+			   </label>
+			   <nav class="nav">
+				  <ul>
+					 <li><a href="index.html" >Hjem</a></li>
+					 <li><a href="prosjektarbeid.html">prosjektarbeid</a></li>
+					 <li><a href="ux.html">Webutvikling og UX</a></li>
+					 <li><a href="#" class="active">Systemutvikling</a></li>
+					 <li><a href="kilder.html">Kilder</a></li>
+					 
+				  </ul>
+			   </nav>
+			</div>
+		</div>
+	 </header>
+	  
+	<section class="banner-area">
+		<div class="banner-img"></div>
+		<h3></h3>
+		<h1>System<span>utvikling</span></h1>
+	</section>
+	<section class="about-area" id="about">
+		<h3 class="section-title">System<span>Utvikling</span></h3>
+				<p>Definisjonen for systemutvikling er at det er et «rammeverk for å strukturere,
+ planlegge og kontrollere prosessen når man utvikler et informasjonssystem». (Bøe, 2023) Systemutvikling er ofte en dyr og tidkrevende prosess, og selve programmeringen av systemet er en liten del av jobben. Tove Bøe beskriver de øvrige delene, som blant annet planlegging, analyser, testing, dokumentering og administrative oppgaver som de oppgavene som kan være tidkrevende og kostbare. (Tove Bøe, 2023)
+<br> <br>
+ Man kan velge to ganske forskjellige metoder når man skal utvikle informasjonssystemer: Tradisjonelle eller Agile metoder. Tradisjonelle metoder, som for eksempel Fossefallsmetoden, er en trinnvis metode der man jobber metodisk fremover og ikke ser seg bakover. I Agile metoder, som blant annet Scrum, er man mer fleksibel med mer fokus på åpenhet og selvstyrte team. 
+<span id="dots">...</span><span id="mer" style="display:none;">Systemutvikling består av faser. <br> <br> Man kan ha kravspesialisering, analyse, design og implementering som en grov oversikt over hvordan fasene kan se ut, men dette kan variere. (Bøe, 2023) Under kravspesialisering prøver man å finne ut hvilket behov som må dekkes. (Bøe, 2023) Når man skal utvikle et informasjonssystem er det viktig å sette seg godt inn i hva som er kundens behov, slik at sluttproduktet ikke blir noe helt annet enn hva kunden så for seg. Samtidig må man huske på at kundene ikke alltid vet hva de vil ha, eller at de kanskje har urealistiske krav til innholdet i systemet.
+	<br> <br>Deretter går man til analysefasen, der man spør seg hvordan systemet skal dekke dette behovet. (Bøe, 2023) Når man jobber med tradisjonelle metoder kan man bruke «use case» eller dataflyt for å analysere og dokumentere. Dataflyt er et visuelt verktøy som viser hvordan systemet skal fungere. Man har flere nivåer, der nivå 0 er et kontekstdiagram, som gir oss et overordnet blikk over systemet. For hvert nivå blir det mer detaljert og komplekst. (Nolle, 2021) 
+	<br> <br>Når man jobber med Agile metoder, er det vanlig å bruke «user stories», der man kan definere hvilke krav man har til systemet, hvilke funksjoner man har behov for og hvilke kriterier man har til ytelse. (Bøe, 2023) Hver historie skrives på et kort, for eksempel en post-it-lapp, deretter har produkteier og utvikler en samtale for å forsikre seg om at teksten ikke er misforstått. Bakpå kortet skriver man en «confirmation», som er en kort beskrivelse av hvilke forventninger man har til funksjonaliteten, slik at utvikleren vet akkurat hva som skal gjøres. (Bøe, 2023)
+	<br> <br>I designfasen ser man på hvordan systemet skal bygges. Det er her man bestemmer hvordan det skal struktureres og presenteres. (Bøe, 2023) Her må man være obs på brukervennlighet og universell utforming, slik at de som skal bruke systemet opplever det som enkelt å forstå hvordan de skal navigere seg rundt. Til slutt setter man alle komponentene sammen, før det så lanseres under implementeringsfasen. (Bøe, 2023)
+	</span></p>
+<button onclick="myFunction()" id="knap">Les mer</button>
+
+		
+				<br/>
+				<h3 class="section-title">Tradisjonelle<span> metoder</span></h3>
+				<h3>Kort om Tradisjonelle metoder</h3>
+				<hr>
+				<p>Tradisjonelle metoder for systemutvikling kan også kalles for strukturerte metoder, og refererer til en konvensjonell og sekvensiell måte å utvikle systemer på. Metodene følger en strukturert og lineær framgangsmåte som har lite fleksibilitet, og det er ikke alltid mulighet for å gå tilbake til tidligere trinn i prosessen og endre noe. 
+
+					Man får også mindre input fra sluttbruker underveis i prosessen, de har mulighet for å komme med innspill i starten og evt. godkjenne sluttproduktet. Dette gjør at man beveger seg raskere gjennom fasene (TechTarget, u. å.). Metoden er nyttig hvis man har et konkret mål man skal nå.
+					</p>
+					<h1>Fossefallsmetoden</h1>
+					<img src="img/tm.jpg" alt="Fossefallsmetoden">
+					<p>Fossefallsmetoden ble beskrevet på 1970-tallet av Winston w. Royce i sammenheng med software-utvikling (Forbes, 2022) . Fossefallsmetoden er den mest kjente tradisjonelle metoden innenfor systemutvikling. Fossefallsmetoden er karakterisert av at hvert steg i prosessen må gjennomføres før neste kan påbegynnes, og når et steg er gjennomført, kan man ikke gå tilbake og endre arbeidet. Fordelene med dette er bedre dokumentasjon og stabilitet. 
+						<br><br>Fossefallsmetoden har spesifikke faser i løpet av utviklingsprosessen. Det er fem viktige faser, men antallet faser og hva de ulike fasene inneholder kan variere. Det viktigste er at man får med undersøkelse, design, implementering, testing/verifisering og vedlikehold (Adobe Experience Cloud, 2022, Forbes, 2022).
+												<br><br>Undersøkelsesfasen består i å undersøke hva kravene/behovene til organisasjonen er. Man finner ut av hva man allerede har av systemer som eventuelt kan brukes eller endres for å møte behovene, eller om det må utvikles et helt nytt system. Følger man 7-trinnsmodellen som avbildet overfor, kan man etter undersøkelsesfasen analysere hva man har funnet ut i undersøkelsesfasen med ved å f.eks. intervjue brukere av det eksisterende systemet for å finne ut hva som funker og ikke funker. 
+												<br><br>Designdelen går ut på å utvikle en prototype basert på det man har funnet ut i den første fasen. Underveis i designprosessen tester man prototypen og endrer det som ikke fungerer. I 7-trinnsmodellen har man også en utviklingsfase etter designfasen som går ut på å utvikle systemet ferdig. I denne delen er det mange oppgaver og aktiviteter som foregår og må løses samtidig.
+												<br><br>Implementeringsfasen er den delen hvor systemet fases inn og man kan begynne å bruke det. I implementeringsfasen kan man ta i bruk systemet gradvis eller introdusere det direkte. 
+												Når man tester/verifiserer produktet så tester man om produktet leverer det som er bestilt. Hvis det ikke gjør det, så er denne fasen til for å finne ut av hvor feilen ligger. 
+												Vedlikehold foregår i hele systemets levetid, hvor man reparerer, endrer og oppdaterer systemet etter behov. 
+												Avslutningsvis er det viktig å ha en plan for hvordan systemet skal fases ut når det ikke lenger er brukbart av forskjellige grunner. 
+												<br><br>Fordelene med denne metoden er at man kan gi teamet et felles mål å jobbe mot, selv om teamet skulle endre seg over tid, det gir en strukturert og organisert måte å jobbe på, og man har klart definerte mål og milepæler å nå i løpet av prosessen (TechTarget, 2022).
+												<br><br>Noen ulemper er at det er som nevnt lite fleksibilitet i å endre på arbeid som allerede er gjort. Det vil si at hvis man finner en feil må man muligens starte hele prosessen på nytt. En annen er at det er lite rom for feedback fra sluttbruker underveis. Det er også en ulempe at produktet er klart relativt sent i prosessen, og at også da testingen skjer sent. Noe av grunnen til dette er at metoden ikke tillater at man jobber med flere av fasene samtidig (TechTarget, 2022). 
+						</p>
+						<h2>Design-to-Schedule</h2>
+						<p>Variasjon av fossefallsmetoden som fokuserer mer på å få fullført et prosjekt til tiden, og mindre på systemets kvalitet. Det er nyttig hvis man har klare mål og kort tid, men mindre nyttig hvis det er viktig at systemet fungerer 100% før implementering. Man er her villig til å ofre noen steg i utviklingen av systemet hvis man går tom for penger/tid. 
+						</p>
+						<h2>Shashimi-modellen</h2>
+						<p>Sashimi-modellen er nyttig i prosjekter hvor man tilegner seg forståelse underveis i prosjektet. Systemet tillater mer fleksibilitet enn Design-to-Schedule og fossefallsmodellen. Det er en modell hvor man "deler opp" prosjektet og fasene i oppgaver hvor man jobber parallelt med dem, det vil si at man kan jobbe med flere faser samtidig, og man får ofte mer innspill fra produkteier. Det er også fokus på mer tverrfaglig arbeid.</p>
+                         <h2>Fossefall med delprosjekter</h2>
+						 <p>Også kalt iterative and incremental development. En litt mer fleksibel modell enn fossefallsmetoden, her tillates det å gå tilbake å gjøre endringer. Produktet blir delt opp og ferdigstilt i deler</p>
+						 <h2>Spiralmodellen</h2>
+						 <p>Spiralmodellen blander elementer av iterative og sekvensielle utviklingsmetoder, men skiller seg ut fra fossefallsmetoden fordi den har gjentakende utviklingssykluser. Det er hovedsakelig en modell for å beregne risiko i systemutvikling ved å gå igjennom iterative steg for å gjøre risikoanalyse, utvikling og evaluering. Spiralmodellen er fleksibel og er med på å identifisere problemer og risikoelementer tidlig i utviklingsprosessen (GeeksforGeeks, 2023).</p>
+                         <br>
+						 <h2>Oppsummering</h2>
+						 <hr>
+						 <p>Tradisjonelle metoder er en systematisk måte å utvikle systemer, og følger en veldefinert prosess med klare delmål og hva man skal levere. De er nyttige for prosjekter med stabile og klare mål og krav, hvor det er mindre sannsynlig at det blir endringer underveis. Tradisjonelle metoder kan ha begrensninger når det kommer til å håndtere mer komplekse krav, eller krav som endres/utvikles underveis i prosjektet, siden endringer senere i utviklingssyklusen kan være vanskelige å imøtekomme.</p>
+						<br/>
+				<h3 class="section-title">Agile<span> metoder</span></h3>
+				<hr>
+				<p>Agile metoder, også kalt smidige metoder, defineres av Agile Alliance som evnen til å skape og respondere på endring. (Agile Alliance, u. å.) Martin Fowler, én av de som utarbeidet Agile Manifesto, skrev: “We considered a bunch of names, and agreed eventually on "agile" as we felt that captured the adaptiveness and response to change which we felt was so important to our approach”. Atlassian beskriver det som en fremgangsmåte der man deler prosjektet inn i faser og har fokus på kontinuerlig samarbeid og fremgang. (Atlassian, u.å.) Smidige metoder skiller seg fra tradisjonelle metoder ved at man får en fungerende programvare opp og gå så raskt som mulig, og heller forbedrer og gjør endringer underveis i prosjektet. Klienten får tilgang og kan bruke systemet og er derfor direkte involvert i prosjektet. (Kendall & Kendall, 2020, s. 213) 
+					<br><br>Selv om begrepet Agile metode ikke teoretisk fantes før 2001, så var det mange utviklere som fra midten av 90-tallet utviklet sine egne smidige fremgangsmåter når de jobbet med et prosjekt, da de tradisjonelle metodene fungerte dårlig for dem.  Fra disse forskjellige metodene vokste det frem rammeverk som blant annet Scrum og Extreme Programming. Det var først når 17 utviklere møttes i 2001 for å se hvilke metoder og tankesett de hadde til felles at de kom på begrepet Agile. (Agile Alliance, u.å.) De skrev et manifest, kalt Agile Manifesto, som har 12 prinsipper og fire essensielle verdier, der man skal verdsette:
+					</p>
+					<pre><h1>
+		«Personer og samspill fremfor prosesser og verktøy
+		Programvare som virker fremfor omfattende dokumentasjon
+		Samarbeid med kunden fremfor kontraktsforhandlinger
+		Å reagere på endringer fremfor å følge en plan
+
+		Dette vil si: Selv om punktene som står til høyre har verdi,
+	  så verdsetter vi punktene til venstre enda høyere.» (Agile Manifesto, u.å.)</h1></pre>
+	  <br> <br><p>  Disse verdiene og de 12 prinsippene, skal fungere som en paraply når man jobber med metoder som Scrum, Extreme Programming, SAFE, etc. (Agile Alliance, u.å.) »   
+	  </p>
+					   <br>
+					   <br>              
+					   <h3 class="section-title">Scrum<span></span></h3>
+				  <hr>
+				  <p>Scrum er kanskje den mest kjente og brukte Agile metoden, og er en populær metode til komplekse prosjekter der man trenger kontinuerlig oppgradering. (Kendall & Kendall, 2020, s.205) Det er tre roller i et Scrum-team: Produkteier, Scrum Master og utviklerteamet. (Schwaber & Sutherlandaber, 2011) 
+					<br><br>Produkteierens rolle går blant annet ut på å ha ansvaret for planen for prosjektet, lanseringsdatoer og sluttvurderingen. (Kendall & Kendall, 2020, s. 206) Hen har også ansvar for produktkøen («Product Backlog»), som blant annet innebærer hvordan produktkøelementene skal prioriteres og at det er forståelig for utviklingsteamet (Schwaber & Sutherlandaber, 2011) Scrum Master er en fasilitator, som skal hjelpe teamet å overholde prinsippene i Scrum og sørge for at utviklingsteamet har forstått oppgaven. I tillegg er hen en coach for teamet, som blant annet fjerner hindringer for fremdrift, løser opp i interne og eksterne konflikter, og hjelper til med å finne gode teknikker for å komme i mål. (Kendall & Kendall, 2020, s.206) Utviklingsteamet er et tverrfunksjonelt team, som får organisere seg selv. De jobber som en helhet og ingen får noen annen tittel enn «utvikler». (Schwaber & Sutherlandaber, 2011)
+					</p>
+					<img src="img/scrum.jpg" alt="scrum">
+					<p><i>scrum Process Diagram, 2008,</i> av Jon Galloway.</p> 
+					<br>
+                <h3>Scrum har fire formelle aktiviteter innenfor en Sprint.</h3>
+				<br>
+				<p><i class="fa fa-arrow-right"></i> Sprint-planleggingsmøte</p>
+				<p><i class="fa fa-arrow-right"></i> Daglig Scrum </p>
+				<p><i class="fa fa-arrow-right"></i> Sprint Review-møte</p>
+				<p><i class="fa fa-arrow-right"></i> Sprint Retrospective</p>
+				<br>
+				<p>Sprinten foregår over et tidsrom på to til fire uker der man skal levere et brukbart inkrement til slutt. Med «inkrement» mener man det som har blitt utviklet. Når Sprinten er avsluttet, så starter en ny Sprint, med en ny oppgave som skal fullføres. Grunnen til at man velger å ha maks én måned på en Sprint, er at da slipper man å gape over for mye av gangen og oppgaven blir ikke for kompleks. (Schwaber & Sutherlandaber, 2011) Det er også en viktig verdi i Agile metode, nemlig at man skal holde det enkelt. (Kendall & Kendall, 2020, s. 197)
+					<br><br>Under Sprintplanleggingen planlegger Scrum-teamet hvilke elementer som skal leveres i løpet av Sprinten og hva man må gjøre for å lage inkrementet. Produkteieren formidler til teamet hvilke elementer fra produktkøen som burde prioriteres. Utviklingsteamet bestemmer selv hvor mange elementer de kan klare å fullføre i løpet av Sprinten. Når de har en «Sprint backlog», det vil si de utvalgte elementene og planen for å levere de, står utviklingsteamet fritt til å organisere seg selv, men de må kommunisere med produkteier og Scrum Master om planlagt fremgangsmåte. (Schwaber & Sutherlandaber, 2011) 
+					<br><br>Man har et daglig Scrum-møte, også kalt «stand up meeting», da de skal være korte, og skal være et kontaktpunkt der teamet forteller hva de har gjort siden sist møte og hva de planlegger å gjøre frem til neste møte. (Kendall & Kendall, 2020, s. 209)
+					<br><br>Ved Sprintens slutt skal Scrum-teamet og interessentene møtes for en Sprint Review, som er et uformelt møte hvor de presenterer inkrementet og får tilbakemeldinger. Man går gjennom hva som ble fullført og hva som ikke ble fullført, og produkteier kan evaluere om man skal endre produktkøen. (Schwaber & Sutherlandaber, 2011)
+					<br><br>Rett etter en Sprint Review vil man ha en Sprint Retrospective, der de eneste som deltar er Scrum-teamet. Her skal de evaluere seg selv, hvordan de har samarbeidet og se hvordan de kan forbedre seg til neste Sprint. (Schwaber & Sutherlandaber, 2011)
+					</p>
+					<br>
+					<h3>Utfordringer og begrensninger med Agile metode</h3>
+					<hr>
+					<p>Det er flere utfordringer man kan møte dersom man vil ta i bruk Agile metoder. Dersom man jobber med et stort prosjekt som krever mange iterative faser, så kan det være en utfordring å ikke kjøre av sporet tidsmessig og økonomisk. Uten et klart mål kan tanken om at man skal ha kontinuerlig endring under prosjektet skape en risiko for at prosjektet aldri blir ferdig. Siden det er lite dokumentasjon i Agile metoder, kan det være vanskelig for nye ansatte å sette seg inn i prosjektet i tillegg til at det blir vanskeligere å vedlikeholde. I motsetning til tradisjonelle metoder, der man tester til slutt, så tester man jevnlig underveis i Agile metoder. Dette kan bli svært kostbart dersom prosjektet går over tiden. (Flora & Chande, 2014)
+					</p>
+					<br>
+					<h2>Når kan man bruke Agile metode?</h2>
+					<p>Agile metoder kan brukes i de aller fleste prosjekter, men passer spesielt godt dersom klienten ikke har en helt konkret idé for hvordan det ferdige prosjektet skal være. På denne måten får klienten være med på prosessen, prøve ut prosjektet og komme med tilbakemeldinger. Da sikrer man at man kan gjøre endringer etter klientens ønsker underveis, og det er mindre sjanse for at klienten ender opp med noe helt annet enn hva de ønsket.</p>
+					<br>
+					<br>
+					
+			</li>
+		</ul>
+	</section>
+		
+	</section>
+    	<footer>
+            <p>&copy; Semesteroppgaven WES120V-1 2023 G10 <i class="fa fa-coffee"></i></p>		
+	</footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></button>
+
+        <script>
+        // Få kannapen 
+        let mybutton = document.getElementById("myBtn");
+        
+        // når man blar nedover viser knappen seg
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // Når man trykker på knappen sender deg opp over igjen!
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+		
+		<script>
+			//les mer knappen
+			function myFunction() {
+			  var dots = document.getElementById("dots");
+			  var moreText = document.getElementById("mer");
+			  var btnText = document.getElementById("knap");
+			
+			  if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Les mer"; 
+				moreText.style.display = "none";
+			  } else {
+				dots.style.display = "none";
+				btnText.innerHTML = "les mindre"; 
+				moreText.style.display = "inline";
+			  }
+			}
+			</script>
+</body>
+</html>

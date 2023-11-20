@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Kilder</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/ll.ico" />
+	<style>
+             
+       /* Stiler for tilbake til topp-knappen */
+       #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 26px;
+          border: none;
+          outline: none;
+          background-color: rgba(255, 0, 0, 0.523);
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: #555;
+        }
+        .container1 {
+    padding: 20px; /* Legg til padding for avstand inni containeren */
+    border: 10px solid #ccc; /* Legg til en kant rundt containeren */
+    border-radius: 5px; /* Legg til avrundede hjørner på containeren */
+  }
+        h2{
+            color: black;
+            text-align: center;
+        }
+        h3{
+          text-align: center;
+          font-size: 29px;
+        }
+        /*Sett fargen på horisontal linje til svart og bredde til 100%*/
+        hr{
+            color: black;
+            width: 100%;
+                  }
+       /*Stil for lenkene*/           
+        a.button {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #e8ecf0;
+            color: #0f0b0b;
+            border: 1px solid #007bff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        a.button:hover {
+          background-color: #0062cc;
+          color: #fff;
+          border: 1px solid #0062cc;
+          transition: ease 0.3s;
+          
+           }
+        </style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+			   <div class="logo">
+				 <a href="index.html">Web og Systemutvikling</a>
+			   </div>
+			   <input type="checkbox" id="nav-check">
+			   <label for="nav-check" class="nav-toggler">
+				  <span></span>
+			   </label>
+			   <nav class="nav">
+				  <ul>
+					 <li><a href="index.html" >Hjem</a></li>
+					 <li><a href="prosjektarbeid.html">prosjektarbeid</a></li>
+					 <li><a href="ux.html">Webutvikling og UX</a></li>
+					 <li><a href="systemutvikling.html">Systemutvikling</a></li>
+					 <li><a href="#" class="active">Kilder</a></li>
+					 
+				  </ul>
+			   </nav>
+			</div>
+		</div>
+	 </header>
+	  
+	<section class="banner-area">
+		<div class="banner-img"></div>
+		<h1>Kilder <span>+</span></h1>
+	</section>
+  <div class="container1">
+		<h3 class="section-title">Bla<span>Nedover</span></h3>
+		<hr>
+    <br>
+    <h2>Utviklingsprosessen for nettstedet</h2>
+    <p>Dette nettstedet ble utviklet med inspirasjon fra Divinector's YouTube-tutorial med hjelp fra W3schools til utfylle oppgaven. Design og fargevalg ble hentet fra 
+      Divinector storsett, men noen områder ble tilpasset ved å bytte fargene og fjerne noen elmenter. Navigasjonsmenyen ble laget ved hjelp av en tutorial video fra The WebShala,du finner lenken i kildene.
+      Jeg la også til en "scroll to top"-funksjon og les mer knappen ved å bruke JavaScript, men ellers ble det ikke brukt noe annet JavaScript i koden.
+ For å tilpasse nettstedet til oppgaven, ble det gjort flere endringer. 
+      Vi fjernet "more info"-knappen og endret bakgrunnsbildet i bannren. Under "om området" endret vi nesten alt og la til et bilde.
+      Mellom "om området" og "tjenester område" på den gjennomsiktig overlay for endret jeg bildet og sitatet og behold den i nettstedet siden den var en fin effekt å ha.
+      I "tjenester område" endret vi bakgrunnsfargen, fjernet ikonene, og la til relevante bilder og satt inn lenkene til de forskjellige besvarelsene. 
+      Til slutt byttet vi ut kontaktfeltene med ikoner og enkel informasjon om oss som har jobbe med denne oppgaven.
+      Faviconet er hentet fra <a href="http://icon-icons.com/" target="_blank">Icon-icons.com</a> og har læret meg hvordan man setter den inn fra en av spørsmålene i <a href="http://stackoverflow.com/" target="_blank">stackoverflow</a> direkte lenker til begge to finner du under. 
+      <br>
+      ps: i løpe av oppgaven har jeg gjort endringe i koden for i tilpasse den til oppgaven fra min tidligere erfaring innen css og html
+      
+
+      </p>
+      <br>
+      <h3>Du kan finne lenkene til relatert innhold her.</h3>
+      <ul>
+        <ul>
+          <h3>Nettstedets Hovedstruktur</h3>
+          <li><a href="https://www.youtube.com/watch?v=7IoenDRNFFE&t=885s&ab_channel=Divinector" target="_blank" class="button">HTML/CSS Tutorial på YouTube</a></li>
+          <li><a href="https://www.youtube.com/watch?v=RqM5Wzuil5U&ab_channel=TheWebShala" target="_blank" class="button">Eksempel på responsiv navigasjonslinje YouTube</a></li>
+          <li><a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp"target="_blank" class="button">Tilbake til toppen-knappen</a></li>
+          <li><a href="https://www.w3schools.com/howto/howto_js_read_more.asp" target="_blank" class="button">(Les mer om) knappen</a></li>
+          <li><a href="https://icon-icons.com/icon/business-computer-device-office-technology/112722" target="_blank" class="button">Faviconet</a></li>
+          <li><a href="https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page" target="_blank" class="button">Hvordan setter man Faviconet i coden</a></li>
+          <li><a href="https://www.vecteezy.com/vector-art/3216744-business-plan-target-with-team-discussion-to-achieve-target-goals" target="_blank" class="button">Bilde 1 </a></li>
+          <li><a href="https://seeresponse.com/wp-content/uploads/2019/02/ui-ux-design-graphic.jpg" target="_blank" class="button">Bilde 2 </a></li>
+          <li><a href="https://www.vecteezy.com/vector-art/2178145-team-of-developers-working-on-code" target="_blank" class="button">Bilde 3 </a></li>
+          <li><a href="https://www.vecteezy.com/vector-art/19128296-data-help-info-information-resources-flat-color-icon-vector" target="_blank" class="button">Bilde 4 </a></li>
+          <li><a href="https://www.vecteezy.com/vector-art/2214650-web-designer-and-programmer" target="_blank" class="button">Bilde A3 </a></li>
+          <li><a href="https://www.vecteezy.com/vector-art/2178146-team-of-developers-working-on-code" target="_blank" class="button">Bilde A2 </a></li>
+         <h2>Prosjektledelse og prosjektarbeid</h2>
+         <li><a href="https://www.universitetsforlaget.no/prosjekthandboka-3-0-1" target="_blank" class="button"> <i class="fa fa-book  fa-2x" aria-hidden="true"></i> Aakre, H. S. & Scharning J. (2016). Prosjekthåndboken 3.0. Universitetsforlaget <i class="fa fa-book  fa-2x" aria-hidden="true"></i> </a></li>
+         <li><a href="" target="_blank" class="button">Bilde fra.. Karlsen , J. T. (2013). Prosjekteldelse. Universitetsforlaget   </a></li>
+         <h2>Systemutvikling</h2>
+          <li><a href="https://www.geeksforgeeks.org/software-engineering-spiral-model/" target="_blank" class="button">GeeksforGeeks (2023) Software Engineering | Spiral Model. Hentet 16. November 2023</a></li>
+          <li><a href="https://www.agilealliance.org/agile101/" target="_blank" class="button">Agile Alliance. (u. å.). What is Agile?. Hentet 24. September 2023  </a></li>
+          <li><a href="https://www.agilealliance.org/a-short-history-of-agile/" target="_blank" class="button">Agile Alliance. (u. å.). A short history of Agile. Hentet 26. September 2023</a></li>
+          <li><a href="https://www.atlassian.com/agile" target="_blank" class="button">Atlassian. (u. å.). The Agile Coach: Atlassian's no-nonense guide to agile development. Hentet 24. September 2023</a></li>
+          <li><a href="https://agilemanifesto.org/" target="_blank" class="button">Agile Manifesto. (u.å.). Manifesto for Agile Software Development. Hentet 22. September 2023</a></li>
+          <li><a href="https://usn.instructure.com/courses/30040/files/3122391?module_item_id=467266" target="_blank" class="button">Bøe, T. (2023, 23. August). Introduksjon til systemutvikling [Lysarkpresentasjon]. Canvas</a></li>
+          <li><a href="https://usn.instructure.com/courses/30040/files/3027910?module_item_id=444864" target="_blank" class="button">Bøe, T. (2023, 23. August). Introduksjon til systemutvikling [Lysarkpresentasjon]. Canvas.</a></li>
+          <li><a href="https://www.researchgate.net/publication/266742256_A_Systematic_Study_on_Agile_Software_Development_Methodlogies_and_Practices" target="_blank" class="button">Flora, H. K & Chande, S. V. (2014). A Systematic Study on Agile Software Development Methodologies and Practices. International Journal of Computer Science and Information Technologies, Vol. 5 (3). 3634-3636.  </a></li>
+          <li><a href="https://scrumguides.org/docs/scrumguide/v1/Scrum-Guide-NO.pdf" target="_blank" class="button">Schwaber, K. & Sutherland, J. (2011, Oktober). Den definitive guiden til Scrum: Spillereglene. Scrumguiden</a></li>
+          <li><a href="" target="_blank" class="button"><i class="fa fa-book  fa-2x" aria-hidden="true"></i> Kendall, K. E & Kendall, J. E. (2020). Systems Analysis and Design (10. utg.). Pearson Education Limited. <i class="fa fa-book  fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://usn.instructure.com/courses/30040/files/3027910?module_item_id=444864" target="_blank" class="button">Bøe, T. (2023, 25. Oktober). Systemutviklingsmetoder [Lysarkpresentasjon]. Canvas.</a></li>
+          <h2>UX</h2>
+         <li><a href=" https://www.w3.org/Style/CSS20/history.html" target="_blank" class="button">Bos, B. (2016, 17. Desember). A brief history of CSS until 2016. The World Wide Web Consortium.</a></li>
+         <li><a href=" https://usn.instructure.com/courses/30040/files/3043940?module_item_id=438456" target="_blank" class="button">Johannessen, M. R. (2023, 30. August). Introduksjon til HTML og CSS [Lysarkpresentasjon]. Canvas.</a></li>
+        
+         <li><a href="https://www.techtarget.com/searchdatamanagement/definition/data-flow-diagram-DFD" target="_blank" class="button">Nolle, T. (2021, Oktober). Data flow diagram (DFD). TechTarget</a></li>
+         <li><a href="https://www.tutorialstonight.com/html/history-of-html?utm_content=cmp-true" target="_blank" class="button">Tutorials Tonight. (u. å.). A Brief History of HTML. Hentet 20. Oktober 2023 </a></li>
+         <li><a href="https://www.w3schools.in/html/history/?utm_content=cmp-true" target="_blank" class="button">W3School. (u. å.). HTML History. Hentet 20. Oktober 2023</a></li>
+         <li><a href="https://www.computerscience.org/bootcamps/resources/frontend-vs-backend/" target="_blank" class="button">Liz Simmons. (2023, 9. November). Front-End vs. Back-End: What's the difference? Computer Science.org.</a></li>
+         <li><a href="https://www.interaction-design.org/literature/topics/ux-design " target="_blank" class="button">Interaction Design. (2016, 1. Juni). User Experience (UX) Design. Interaction-design.org.</a></li>
+         <li><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_%28Usera%29/01%3A_Fundamentals_of_Interpersonal_Communication/1.02%3A_Basic_Process_Models_of_Communication " target="_blank" class="button">Figure 1.2.3. Transactional Model of Communication. (Hentet 16. November 2023) av Libretexts. </a></li>
+         <li><a href="https://balsamiq.com/learn/articles/what-are-wireframes/ " target="_blank" class="button">Balsamiq. What are wireframes? (hentet 17. November 2023) av Balsamiq wireframing academy.</a></li>
+         <li><a href="" target="_blank" class="button"><i class="fa fa-book  fa-2x" aria-hidden="true"></i> Lynch, P. J. & Horton, S. (2016). Web style Guide (4. utg). Yale university press. <i class="fa fa-book  fa-2x" aria-hidden="true"></i> </a></li>
+         <li><a href="" target="_blank" class="button"><i class="fa fa-book  fa-2x" aria-hidden="true"></i> andnes, Frode Eika . (2022). Universell utforming av IKT-systemer: Brukergrensesnitt for alle (3. utgave). Universitetsforlaget. <i class="fa fa-book  fa-2x" aria-hidden="true"></i> </a></li>
+         <li><a href="https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_%28Usera%29/01%3A_Fundamentals_of_Interpersonal_Communication/1.02%3A_Basic_Process_Models_of_Communication" target="_blank" class="button"> figur 1. Transactional Model of Communication, u. å., av Daniel Usera. (Hentet den 19. 11. 2023) </a></li>
+         <li><a href=" https://ndla.no/image/60587?" target="_blank" class="button">Figur FASE 2. Wireframe skoleapp 3nb, u. å, av Bruno José Teixeira Coelho og Stina Åshildsdatter Grolid (Hentet den 19. 11. 2023) </a></li>
+        </ul>
+		</ul>
+    </div>
+	</section>
+  
+<footer>
+  <p>&copy; Semesteroppgaven WES120V-1 2023 G10 <i class="fa fa-coffee"></i></p>		
+	</footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></button>
+
+        <script>
+        // Få kannapen 
+        let mybutton = document.getElementById("myBtn");
+        
+        // når man blar nedover viser knappen seg
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // Når man trykker på knappen sender deg opp over igjen!
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
